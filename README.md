@@ -24,3 +24,7 @@ Best practices to ensure the code is ready for production:
 - Logging & Monitoring
 - Documentation
 
+In addidtion to the above, following steps can be added to align with best practices:
+- Using environment management tool like `PIPENV` or `virtualenv` to manage development and production dependencies.
+- Using terraform to provision infrastructure if deployment on cloud is needed.
+- Linting formatting using `pylint`, `black`, `isort`.
